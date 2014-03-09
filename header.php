@@ -44,7 +44,7 @@
 							<div class="signup-form untouched">
 								<h3>Coming May 2014</h3>
 								<?php echo do_shortcode( '[mc4wp_form]' ); ?>
-								<p>Developers can try it today and <a href="">contribute on Github</a>.</p>
+								<p>Developers can try it today and <a href="http://github.com/NerveTask/nervetask">contribute on Github</a>.</p>
 							</div>
 						</div>
 					</div>
