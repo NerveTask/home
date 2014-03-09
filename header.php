@@ -27,9 +27,7 @@
 		<div>
 			<header id="main-nav" class="nav">
 				<div class="grid">
-					<div class="logo">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
-					</div>
+					<div class="site-title logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<h1 class="menu-toggle"><?php _e( 'Menu', 'nervetask' ); ?></h1>
 						<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'nervetask' ); ?></a>
