@@ -66,17 +66,6 @@ get_header(); ?>
 					</div>
 				</section>
 			</div>
-			<section id="signup-cta" class="centered color-blue border prominent-button">
-				<div class="grid">
-					<div class="replace-dat">
-						<form id="footer-signup" class="signup-form untouched" inspfaactive="true">
-							<h3>Coming May 2014</h3>
-							<?php echo do_shortcode( '[mc4wp_form]' ); ?>
-							<p>Developers can try it today and <a href="">contribute on Github</a>.</p>
-						</form>
-					</div>
-				</div>
-			</section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
