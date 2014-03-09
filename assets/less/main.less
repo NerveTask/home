@@ -1397,25 +1397,6 @@ h2 { text-align: center }
 }
 h3,
 h4 { text-align: left }
-.logo.white-logo a {
-    position: relative;
-    width: 118px;
-    height: 33px;
-}
-.logo.white-logo a>img,
-.logo.white-logo a>div { display: none }
-.logo.white-logo a:after {
-    position: absolute;
-    left: 1px;
-    top: -2px;
-    line-height: 37px;
-    font-family: 'icons';
-    -webkit-font-smoothing: antialiased;
-    content: 'I';
-    color: white;
-    font-size: 195px;
-    text-shadow: 0 2px 0 rgba(62,71,76,0.4);
-}
 .header-wrap .header-wrap-color{ background-color: rgba(120,137,145,0.75) }
 @media (min-width: 59em) {
     .header-wrap .header-wrap-color { background-color: rgba(120,137,145,0.4) }
@@ -1564,7 +1545,10 @@ body.index.header-image #header-left-content p.fancy,
 @media (min-width: 79em) {
     #main-nav li:last-child { margin-left: 4em }
 }
-.logo a { display: inline-block }
+.logo a {
+	color: white;
+	display: inline-block
+}
 .logo img { height: 33px }
 .nav ul { display: none }
 @media (min-width: 39em) {

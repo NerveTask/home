@@ -26,7 +26,7 @@ module.exports = function(grunt) {
           // To enable, set sourceMap to true and update sourceMapRootpath based on your install
           sourceMap: true,
           sourceMapFilename: 'assets/css/main.min.css.map',
-          sourceMapRootpath: '/wp-content/themes/control-2/'
+          sourceMapRootpath: '/wp-content/themes/nervetask/'
         }
       }
     },
@@ -34,18 +34,6 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'assets/js/scripts.min.js': [
-            'assets/js/plugins/bootstrap/transition.js',
-            'assets/js/plugins/bootstrap/alert.js',
-            'assets/js/plugins/bootstrap/button.js',
-            'assets/js/plugins/bootstrap/carousel.js',
-            'assets/js/plugins/bootstrap/collapse.js',
-            'assets/js/plugins/bootstrap/dropdown.js',
-            'assets/js/plugins/bootstrap/modal.js',
-            'assets/js/plugins/bootstrap/tooltip.js',
-            'assets/js/plugins/bootstrap/popover.js',
-            'assets/js/plugins/bootstrap/scrollspy.js',
-            'assets/js/plugins/bootstrap/tab.js',
-            'assets/js/plugins/bootstrap/affix.js',
             'assets/js/plugins/*.js',
             'assets/js/_*.js'
           ]
@@ -53,7 +41,7 @@ module.exports = function(grunt) {
         options: {
           // JS source map: to enable, uncomment the lines below and update sourceMappingURL based on your install
           sourceMap: 'assets/js/scripts.min.js.map',
-          sourceMappingURL: '/wp-content/themes/control-2/assets/js/scripts.min.js.map'
+          sourceMappingURL: '/wp-content/themes/nervetask/assets/js/scripts.min.js.map'
         }
       }
     },
@@ -61,16 +49,15 @@ module.exports = function(grunt) {
       options: {
         file: 'functions.php',
         css: 'assets/css/main.min.css',
-        cssHandle: 'control_main',
+        cssHandle: 'nervetask_main',
         js: 'assets/js/scripts.min.js',
-        jsHandle: 'control_scripts'
+        jsHandle: 'nervetask_scripts'
       }
     },
     watch: {
       less: {
         files: [
-          'assets/less/*.less',
-          'assets/less/bootstrap/*.less'
+          'assets/less/*.less'
         ],
         tasks: ['less', 'version']
       },
