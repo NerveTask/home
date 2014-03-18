@@ -11,6 +11,59 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="section-separators">
+
+				<div class="header-wrap">
+					<div class="header-wrap-color"></div>
+					<div>
+						<section id="header" class="center-vertically">
+							<div class="grid">
+								<div id="h1-wrapper" class="center-vertically" style="margin-top: 35px;">
+									<h1>Project management with WordPress.</h1>
+									<div id="header-left-content">
+										<div class="signup-form untouched">
+											<h3>Coming May 2014</h3>
+											<?php echo do_shortcode( '[mc4wp_form]' ); ?>
+											<p>Developers can try it today and <a href="http://github.com/NerveTask/nervetask">contribute on Github</a>.</p>
+										</div>
+									</div>
+								</div>
+								<div id="header-right-content">
+									<script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/7889353.js"></script>
+									<noscript><a href="http://polldaddy.com/poll/7889353/">How do you want to manage projects?</a></noscript>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+				<section class="paragraph-grid-two-up top-border">
+					<div class="grid">
+						<h2>NerveTask is comprised of two parts</h2>
+						<ul>
+							<li>
+								<div class="center-vertically">
+									<h3>Plugin</h3>
+									<p class="large-type"><strong>NerveTask</strong> is a free, open-source plugin that can add project management features to WordPress.</p>
+									<p class="light-type">
+										NerveTask is easy to contribute to. <a class="navigational" href="http://github.com/NerveTask/nervetask">Join in on Github</a>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="center-vertically">
+									<h3>Theme</h3>
+									<p class="large-type">While project management features are great you want them to be easy to interact with. That's why you need a NerveTask-compatible theme.</p>
+									<p class="light-type">
+										Browse the available NerveTask-compatible themes. <a class="navigational" href="#">Browse Themes</a>
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="single-testimonial twitter color-subtle_bg centered narrow">
+				</section>
+				
 				<section class="no-border-bg left-pull-visual top-border">
 					<div class="grid">
 						<div class="center-vertically">
@@ -25,6 +78,7 @@ get_header(); ?>
 				</section>
 				<section class="single-testimonial twitter color-subtle_bg centered narrow">
 				</section>
+				
 				<section class="right-pull-visual">
 					<div class="grid">
 						<div class="center-vertically">
@@ -39,6 +93,7 @@ get_header(); ?>
 				</section>
 				<section class="single-testimonial facebook color-subtle_bg centered narrow">
 				</section>
+				
 				<section class="left-visual flush-both top-border">
 					<div class="grid">
 						<img src="http://placehold.it/500x495">
@@ -53,6 +108,7 @@ get_header(); ?>
 				</section>
 				<section class="single-testimonial twitter color-subtle_bg centered narrow">
 				</section>
+				
 				<section class="right-visual flush-bottom">
 					<div class="grid">
 						<img src="http://placehold.it/500x574">

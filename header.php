@@ -36,23 +36,6 @@
 					</nav><!-- #site-navigation -->
 				</div>
 			</header>
-			<section id="header" class="center-vertically">
-				<div class="grid">
-					<div id="h1-wrapper" class="center-vertically" style="margin-top: 35px;">
-						<h1>Project management with WordPress.</h1>
-						<div id="header-left-content">
-							<div class="signup-form untouched">
-								<h3>Coming May 2014</h3>
-								<?php echo do_shortcode( '[mc4wp_form]' ); ?>
-								<p>Developers can try it today and <a href="http://github.com/NerveTask/nervetask">contribute on Github</a>.</p>
-							</div>
-						</div>
-					</div>
-					<div id="header-right-content">
-						<a class="play-video"><img src="http://placehold.it/611x343"></a>
-					</div>
-				</div>
-			</section>
 		</div>
 	</div>
 
