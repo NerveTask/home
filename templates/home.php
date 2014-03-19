@@ -73,7 +73,7 @@ get_header(); ?>
 								NerveTask is easy to contribute to. <a class="navigational" href="http://github.com/NerveTask/nervetask">Join in on Github</a>
 							</p>
 						</div>
-						<div class="pull" style="background: url('http://placehold.it/900x573');"></div>
+						<div class="pull" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
 					</div>
 				</section>
 				<section class="single-testimonial twitter color-subtle_bg centered narrow">
@@ -88,15 +88,15 @@ get_header(); ?>
 								Never locked in. <a class="navigational" href="#">Learn more</a>
 							</p>
 						</div>
-						<div style="background: url('http://placehold.it/900x573')" class="pull"></div>
+						<div class="pull" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
 					</div>
 				</section>
 				<section class="single-testimonial facebook color-subtle_bg centered narrow">
 				</section>
 				
-				<section class="left-visual flush-both top-border">
+				<section class="no-border-bg left-pull-visual top-border">
 					<div class="grid">
-						<img src="http://placehold.it/500x495">
+						<div class="pull" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
 						<div class="center-vertically">
 							<h3>Prefer a different look? Skin NerveTask however you want.</h3>
 							<p class="large-type">NerveTask is an open-source plugin and easy for WordPress theme developers to create unique themes around. Or you can outfit an existing theme with a few steps.</p>
@@ -109,9 +109,9 @@ get_header(); ?>
 				<section class="single-testimonial twitter color-subtle_bg centered narrow">
 				</section>
 				
-				<section class="right-visual flush-bottom">
+				<section class="no-border-bg right-pull-visual top-border flush-bottom">
 					<div class="grid">
-						<img src="http://placehold.it/500x574">
+						<div class="pull" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
 						<div class="center-vertically">
 							<h3>Secure. NerveTask is built with WordPress VIP coding standards.</h3>
 							<p class="large-type">Quality code is no after-thought here. Security is important to your and your clients, so we've adhered to standards set forth by WordPress VIP, an Automattic company for enterprises.</p>
