@@ -97,7 +97,7 @@ get_header(); ?>
 								<h3>Skin NerveTask however you want.</h3>
 								<p>NerveTask is an open-source plugin and easy for WordPress theme developers to create unique themes around. Or you can outfit an existing theme with a few steps.</p>
 								<p>
-									Project management has many different looks. <a class="navigational" href="">Checkout the themes</a>
+									Project management has many different looks. <a class="navigational" href="<?php echo esc_url( home_url( '/themes/' ) ); ?>">Checkout the themes</a>
 								</p>
 							</div>
 							<div class="col-lg-7 col-lg-offset-1 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
