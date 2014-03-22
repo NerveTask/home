@@ -22,7 +22,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 
-	<div id="header-wrap">
+	<div id="header-wrap" class="wrap">
 		<div class="container">
 			<header id="main-nav" class="nav row">
 				<div class="col-sm-4">
@@ -43,4 +43,4 @@
 	</div>
 	
 	<div id="content-wrap">
-		<div id="content" class="site-content row">
+		<div id="content" class="site-content">
