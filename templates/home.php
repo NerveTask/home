@@ -61,7 +61,7 @@ get_header(); ?>
 						<div class="row">
 							<div class="col-lg-4 center-vertically">
 								<h3>NerveTask, like WordPress, is open-source.</h3>
-								<p>Open-source projects benefit from their community of users because their users can help to actually build the product and add features as seen necessary to project management.</p>
+								<p>Open-source projects benefit from their community of users because their users can help build the product.</p>
 								<p>
 									NerveTask is easy to contribute to. <a class="navigational" href="http://github.com/NerveTask/nervetask">Join in on Github</a>
 								</p>
@@ -81,7 +81,7 @@ get_header(); ?>
 								<h3>Your data is your data.</h3>
 								<p>Project management data is important and should you ever choose to use a another platform you can take your data with you using a native WordPress export.</p>
 								<p>
-									Never locked in. <a class="navigational" href="<?php echo esc_url( home_url( '/docs/data-portability/' ) ); ?>">Learn more</a>
+									Never locked in. <a class="navigational" href="<?php echo esc_url( home_url( '/docs/data-portability/' ) ); ?>">Data portability</a>
 								</p>
 							</div>
 						</div>
@@ -113,9 +113,9 @@ get_header(); ?>
 							<div class="col-lg-7 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
 							<div class="col-lg-4 col-lg-offset-1 center-vertically">
 								<h3>Secure. NerveTask is built with strict coding standards.</h3>
-								<p>Quality code is no after-thought here. Security is important to your and your clients, so we've adhered to standards set forth by WordPress VIP, an Automattic company for enterprises.</p>
+								<p>Quality code is not an after-thought. Security is important no matter what, so we adhere to strict coding standards.</p>
 								<p>
-									Security and coding standards. <a class="navigational" href="<?php echo esc_url( home_url( '/docs/coding-standards/' ) ); ?>">Learn more</a>
+									Open-source &amp; secured by the people. <a class="navigational" href="<?php echo esc_url( home_url( '/docs/coding-standards/' ) ); ?>">Coding standards &amp; security</a>
 								</p>
 							</div>
 						</div>
