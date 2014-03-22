@@ -19,15 +19,18 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('index stock header-left reveal'); ?>>
+<body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 
-	<div id="header-wrap" class="header-wrap">
-		<div class="header-wrap-color"></div>
-		<div>
-			<header id="main-nav" class="nav">
-				<div class="grid">
-					<a class="site-title logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+	<div id="header-wrap">
+		<div class="container">
+			<header id="main-nav" class="nav row">
+				<div class="col-sm-4">
+					<a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/nervetask-logo.png" alt="<?php bloginfo( 'name' ); ?>">
+					</a>
+				</div>
+				<div class="col-sm-8">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<h1 class="menu-toggle"><?php _e( 'Menu', 'nervetask' ); ?></h1>
 						<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'nervetask' ); ?></a>
@@ -38,5 +41,6 @@
 			</header>
 		</div>
 	</div>
-
-	<div id="content" class="site-content">
+	
+	<div id="content-wrap">
+		<div id="content" class="site-content row">

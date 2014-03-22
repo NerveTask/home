@@ -8,7 +8,8 @@
  */
 ?>
 
-	</div><!-- #content -->
+		</div><!-- #content.site-content.row -->
+	</div><!-- #content-wrap -->
 
 </div><!-- #page -->
 

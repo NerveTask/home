@@ -1,2 +1,125 @@
-@import 'normalize.less';
-@import 'main.less';
+@import 'bootstrap/bootstrap.less';
+@import 'underscores.less';
+@import 'variables.less';
+
+h2 {
+	color: @brand-info;
+}
+
+#header-wrap {
+	background: @gray-darker;
+	border-bottom: 1px solid @gray;
+}
+
+#main-nav {
+	padding: 2.5em 0;
+	
+	.menu-primary-container {
+		float: right;
+
+		.menu {
+
+			.menu-item {
+				margin-left: 4em;
+
+				a {
+					color: @brand-info;
+					text-transform: uppercase;
+					font-size: 16px;
+					font-weight: 900;
+					letter-spacing: 1px;
+					text-align: left;
+					text-decoration: none;
+					display: inline-block;
+					line-height: 34px;
+					-webkit-transition: color 0.4s;
+					-moz-transition: color 0.4s;
+					-o-transition: color 0.4s;
+					transition: color 0.4s;
+					
+					&:hover {
+						color: @brand-primary;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+.mc4wp-form {
+	
+	input[type="email"] {
+		.input-size(34px, 6px, 12px, 14px, 1.428571429, 4px);
+	}
+	
+	input[type="submit"] {
+		.btn();
+		.btn-primary();
+	}
+}
+
+.section {
+	border-bottom: 1px solid @gray-light;
+	
+	.center-vertically {
+		padding-bottom: 3em;
+		padding-top: 5em;
+	}
+	
+	.responsive-background {
+		background-repeat: no-repeat !important;
+		background-size: auto 100% !important;
+		height: 450px;
+		
+		&:first-child {
+			background-position: 0 100% !important;
+			
+		}
+		&:last-child {
+			background-position: 100% 0 !important;
+		}
+	}
+	
+	&.separator {
+		background: @gray-darker;
+		padding: 2.5em;
+	}
+}
+
+/*--------------------------------------------------------------
+Polldaddy
+--------------------------------------------------------------*/
+#PDI_container7889353.PDS_Poll {
+	
+	.pds-box {
+		width: 100%;
+		background: none;
+		color: #b6babf;
+		border: none;
+	}
+	
+	.pds-question-top,
+	.pds-answer label {
+		color: #b6babf;
+	}
+	
+	.pds-answer {
+		border-color: #60676d;
+	
+		.pds-other-label {
+			float: left;
+			margin-right: 10px;
+			width: auto;
+		}
+		label {
+			width: 95%;
+		}
+	}
+	.pds-textfield {
+		background: #373f47;
+		border-color: #60676d;
+		color: #b6babf;
+		padding: 3px;
+	}
+}
