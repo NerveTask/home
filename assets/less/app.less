@@ -1,9 +1,28 @@
 @import 'bootstrap/bootstrap.less';
 @import 'underscores.less';
+@import 'home.less';
 @import 'variables.less';
 
-h2 {
+h2, .h2 {
+	color: @gray-light;
+}
+
+h3, .h3 {
 	color: @brand-info;
+	font-weight: 400;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.btn {
+	background: none;
+	border-width: 2px;
+	-webkit-transition: background 0.4s;
+	-moz-transition: background 0.4s;
+	-o-transition: background 0.4s;
+	transition: background 0.4s;
 }
 
 #header-wrap {
@@ -26,7 +45,7 @@ h2 {
 					color: @brand-info;
 					text-transform: uppercase;
 					font-size: 16px;
-					font-weight: 900;
+					font-weight: 600;
 					letter-spacing: 1px;
 					text-align: left;
 					text-decoration: none;
@@ -45,18 +64,6 @@ h2 {
 		}
 	}
 	
-}
-
-.mc4wp-form {
-	
-	input[type="email"] {
-		.input-size(34px, 6px, 12px, 14px, 1.428571429, 4px);
-	}
-	
-	input[type="submit"] {
-		.btn();
-		.btn-primary();
-	}
 }
 
 .section {
@@ -84,42 +91,5 @@ h2 {
 	&.separator {
 		background: @gray-darker;
 		padding: 2.5em;
-	}
-}
-
-/*--------------------------------------------------------------
-Polldaddy
---------------------------------------------------------------*/
-#PDI_container7889353.PDS_Poll {
-	
-	.pds-box {
-		width: 100%;
-		background: none;
-		color: #b6babf;
-		border: none;
-	}
-	
-	.pds-question-top,
-	.pds-answer label {
-		color: #b6babf;
-	}
-	
-	.pds-answer {
-		border-color: #60676d;
-	
-		.pds-other-label {
-			float: left;
-			margin-right: 10px;
-			width: auto;
-		}
-		label {
-			width: 95%;
-		}
-	}
-	.pds-textfield {
-		background: #373f47;
-		border-color: #60676d;
-		color: #b6babf;
-		padding: 3px;
 	}
 }
