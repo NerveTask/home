@@ -60,7 +60,7 @@ get_header(); ?>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4 center-vertically">
-								<h3>NerveTask, like WordPress, is open-source which means that everyone can make it better all the time.</h3>
+								<h3>NerveTask, like WordPress, is open-source.</h3>
 								<p>Open-source projects benefit from their community of users because their users can help to actually build the product and add features as seen necessary to project management.</p>
 								<p>
 									NerveTask is easy to contribute to. <a class="navigational" href="http://github.com/NerveTask/nervetask">Join in on Github</a>
@@ -81,7 +81,7 @@ get_header(); ?>
 								<h3>Your data is your data.</h3>
 								<p>Project management data is important and should you ever choose to use a another platform you can take your data with you using a native WordPress export.</p>
 								<p>
-									Never locked in. <a class="navigational" href="#">Learn more</a>
+									Never locked in. <a class="navigational" href="<?php echo esc_url( home_url( '/docs/data-portability/' ) ); ?>">Learn more</a>
 								</p>
 							</div>
 						</div>
@@ -94,7 +94,7 @@ get_header(); ?>
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4 center-vertically">
-								<h3>Prefer a different look? Skin NerveTask however you want.</h3>
+								<h3>Skin NerveTask however you want.</h3>
 								<p>NerveTask is an open-source plugin and easy for WordPress theme developers to create unique themes around. Or you can outfit an existing theme with a few steps.</p>
 								<p>
 									Project management has many different looks. <a class="navigational" href="">Checkout the themes</a>
@@ -112,10 +112,10 @@ get_header(); ?>
 						<div class="row">
 							<div class="col-lg-7 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
 							<div class="col-lg-4 col-lg-offset-1 center-vertically">
-								<h3>Secure. NerveTask is built with WordPress VIP coding standards.</h3>
+								<h3>Secure. NerveTask is built with strict coding standards.</h3>
 								<p>Quality code is no after-thought here. Security is important to your and your clients, so we've adhered to standards set forth by WordPress VIP, an Automattic company for enterprises.</p>
 								<p>
-									Security and coding standards. <a class="navigational" href="">Learn more</a>
+									Security and coding standards. <a class="navigational" href="<?php echo esc_url( home_url( '/docs/coding-standards/' ) ); ?>">Learn more</a>
 								</p>
 							</div>
 						</div>
