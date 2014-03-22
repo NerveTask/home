@@ -42,7 +42,8 @@ get_header(); ?>
 							<div class="col-lg-6">
 
 								<h3>Plugin <a class="btn btn-default" href="http://github.com/NerveTask/nervetask">1) Download the free plugin</a></h3>
-								<p class="lead"><strong>NerveTask</strong> is a free, open-source plugin that can add project management features to WordPress.</p>
+								<p class="lead"><strong>NerveTask</strong> is a free, open-source plugin that can add project management features to WordPress.
+									<br>Add the functionality, then add the skin &rarr;</p>
 							</div>
 	
 							<div class="col-lg-6">
@@ -61,7 +62,7 @@ get_header(); ?>
 							<div class="col-lg-4 center-vertically">
 								<h3>NerveTask, like WordPress, is open-source which means that everyone can make it better all the time.</h3>
 								<p class="lead">Open-source projects benefit from their community of users because their users can help to actually build the product and add features as seen necessary to project management.</p>
-								<p class="light-type">
+								<p>
 									NerveTask is easy to contribute to. <a class="navigational" href="http://github.com/NerveTask/nervetask">Join in on Github</a>
 								</p>
 							</div>
@@ -79,7 +80,7 @@ get_header(); ?>
 							<div class="col-lg-4 col-lg-offset-1 center-vertically">
 								<h3>Your data is your data.</h3>
 								<p class="lead">Project management data is important and should you ever choose to use a another platform you can take your data with you using a native WordPress export.</p>
-								<p class="light-type">
+								<p>
 									Never locked in. <a class="navigational" href="#">Learn more</a>
 								</p>
 							</div>
@@ -95,7 +96,7 @@ get_header(); ?>
 							<div class="col-lg-4 center-vertically">
 								<h3>Prefer a different look? Skin NerveTask however you want.</h3>
 								<p class="lead">NerveTask is an open-source plugin and easy for WordPress theme developers to create unique themes around. Or you can outfit an existing theme with a few steps.</p>
-								<p class="light-type">
+								<p>
 									Project management has many different looks. <a class="navigational" href="">Checkout the themes</a>
 								</p>
 							</div>
@@ -113,7 +114,7 @@ get_header(); ?>
 							<div class="col-lg-4 col-lg-offset-1 center-vertically">
 								<h3>Secure. NerveTask is built with WordPress VIP coding standards.</h3>
 								<p class="lead">Quality code is no after-thought here. Security is important to your and your clients, so we've adhered to standards set forth by WordPress VIP, an Automattic company for enterprises.</p>
-								<p class="light-type">
+								<p>
 									Security and coding standards. <a class="navigational" href="">Learn more</a>
 								</p>
 							</div>
