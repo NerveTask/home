@@ -18,7 +18,7 @@ get_header(); ?>
 
 		<section id="primary" class="content-area col-lg-8">
 			
-			<main id="main" class="site-main grid" role="main">
+			<main id="main" class="site-main" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
