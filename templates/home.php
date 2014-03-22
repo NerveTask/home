@@ -23,7 +23,7 @@ get_header(); ?>
 									<p>Developers can try it today and <a href="http://github.com/NerveTask/nervetask">contribute on Github</a>.</p>
 								</div>
 							</div>
-							<div class="col-lg-6 center-vertically">
+							<div class="col-lg-5 col-lg-offset-1 center-vertically">
 								<script type="text/javascript" charset="utf-8" src="http://static.polldaddy.com/p/7889353.js"></script>
 								<noscript><a href="http://polldaddy.com/poll/7889353/">How do you want to manage projects?</a></noscript>
 							</div>
