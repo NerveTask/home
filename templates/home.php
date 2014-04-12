@@ -66,7 +66,7 @@ get_header(); ?>
 									NerveTask is easy to contribute to. <a class="navigational" href="http://github.com/NerveTask/nervetask">Join in on Github</a>
 								</p>
 							</div>
-							<div class="col-lg-7 col-lg-offset-1 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
+							<div class="col-lg-7 col-lg-offset-1 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-open-source.png');"></div>
 						</div>
 					</div>
 				</section>
@@ -76,7 +76,7 @@ get_header(); ?>
 				<section class="section">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-7 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
+							<div class="col-lg-7 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-data-portability.png');"></div>
 							<div class="col-lg-4 col-lg-offset-1 center-vertically">
 								<h3>Your data is your data.</h3>
 								<p>Project management data is important and should you ever choose to use a another platform you can take your data with you using a native WordPress export.</p>
@@ -100,7 +100,7 @@ get_header(); ?>
 									Project management has many different looks. <a class="navigational" href="<?php echo esc_url( home_url( '/themes/' ) ); ?>">Checkout the themes</a>
 								</p>
 							</div>
-							<div class="col-lg-7 col-lg-offset-1 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
+							<div class="col-lg-7 col-lg-offset-1 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-themes.png');"></div>
 						</div>
 					</div>
 				</section>
@@ -110,7 +110,7 @@ get_header(); ?>
 				<section class="section">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-7 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-screenshot-500x973.png');"></div>
+							<div class="col-lg-7 responsive-background" style="background: url('/wp-content/themes/nervetask/assets/images/nervetask-secure.png');"></div>
 							<div class="col-lg-4 col-lg-offset-1 center-vertically">
 								<h3>Secure. NerveTask is built with strict coding standards.</h3>
 								<p>Quality code is not an after-thought. Security is important no matter what, so we adhere to strict coding standards.</p>
